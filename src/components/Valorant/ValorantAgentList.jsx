@@ -3,9 +3,10 @@ import { getValorantAgents } from '../../http';
 import { useValorantContext } from '../../context/ValorantProvider';
 import AgentCard from './AgentCard';
 
+
 function ValorantAgentList() {
 
-    const {valorantAgentAPI: {agents, setAgentsList}} = useValorantContext()
+    const { valorantAgentAPI: { agents, setAgentsList } } = useValorantContext()
 
     useEffect(() => {
         getValorantAgents().then(res => setAgentsList(res))
@@ -13,17 +14,22 @@ function ValorantAgentList() {
 
     const agentCards = agents.map(agent => {
         return (
-            <AgentCard 
-            {...agent}
-            key={agent.uuid}
+            <AgentCard
+                {...agent}
+                key={agent.uuid}
             />
         )
     })
 
+    console.log(agents)
+
     return (
-        <>
-            {agentCards}
-        </>
+        <div className='agent-card-list-flex'>
+
+            <div className='agent-card-list'>
+                {agentCards}
+            </div>
+        </div>
     );
 }
 

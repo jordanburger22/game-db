@@ -7,7 +7,7 @@ function Home() {
 
     const gameDataElements = gameData.map((data, index) => {
         return (
-            <GameCard 
+            <GameCard
                 {...data}
                 key={index}
             />
@@ -16,9 +16,9 @@ function Home() {
 
 
     return (
-        <>
-        {gameDataElements}
-        </>
+        <div className='home--container'>
+            {gameDataElements}
+        </div>
     );
 }
 

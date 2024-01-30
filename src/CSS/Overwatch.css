@@ -1,0 +1,131 @@
+.overwatch--card {
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.overwatch--card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.overwatch--home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://wallpapercave.com/wp/wp4845484.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.overwatch--hero-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    background: radial-gradient(circle at center, #f99c00, #003366);
+    color: white;
+    min-height: 100vw;
+}
+
+.overwatch--hero-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.overwatch--ability-list {
+    background-color: gray;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 20vw;
+}
+
+.overwatch--ability-list>img {
+    max-width: 80%;
+}
+
+.overwatch--hero-story-chapter {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.overwatch--hero-story-chapter>div {
+    width: 40vw;
+}
+
+.overwatch--hero-story-chapter>img {
+    width: 50%;
+}
+
+.overwatch--hero-details {
+    background: linear-gradient(50deg, #f99e1a, #43484c, #405275, #218ffe, #000000);
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.overwatch-hero-details-flex {
+    display: flex;
+}
+
+
+.overwatch--hero-ability-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.overwatch--hero-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 28vw;
+}
+
+.overwatch--map-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: radial-gradient(circle at center, #FF5000, #3F48CC);
+}
+
+.overwatch--map-card-img{
+    width: 500px;
+}
+
+.overwatch--map-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: #3F48CC;
+    color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

@@ -1,0 +1,209 @@
+.mhw--card {
+    box-shadow: rgba(79, 101, 107, 0.5) 0px 1px 3px, rgba(79, 101, 107, 0.4) 0px 1px 2px;
+    margin: 15px;
+    padding: 15px;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    height: 15vh;
+    background-color: #f5f5f580;
+}
+
+.mhw--card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+}
+
+.mhw--card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: radial-gradient(circle, #1c1e22, #0f0f13);
+    height: 100vh;
+}
+
+
+.mhw--nav-card:hover {
+    cursor: pointer;
+    box-shadow: rgba(79, 101, 107, 0.7) 0px 19px 38px, rgba(79, 101, 107, 0.6) 0px 15px 12px;
+}
+
+.mhw--home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('https://www.chromethemer.com/backgrounds/desktop-backgrounds/images/monster-hunter-world-desktop-background.jpg');
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.mhw--nav-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 20vh;
+    border-radius: 20px;
+    justify-content: center;
+    background: rgba(15, 15, 19, 0.8);
+    box-shadow: rgba(79, 101, 107, 0.5) 0px 1px 3px, rgba(79, 101, 107, 0.4) 0px 1px 2px;
+    color: white;
+    margin: 25px;
+}
+
+.mhw--weapon-name-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: center;
+    background-color: #0f0f134d;
+    background: #394240;
+}
+
+.mhw--weapon-name-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    width: 20vw;
+    background: #56696b;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: rgba(79, 101, 107, 0.3) 0px 1px 3px, rgba(79, 101, 107, 0.4) 0px 1px 2px;
+}
+
+.mhw--weapon-name-card:hover {
+    cursor: pointer;
+    box-shadow: rgb(14, 21, 29) 0px 20px 30px -10px;
+}
+
+.mhw--home-h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+}
+
+.mhw--loading-spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #1c1e22, #0f0f13);
+    height: 100vh;
+    color: #56696b;
+}
+
+.mhw--detail-container {
+    display: flex;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    background: #394240;
+    /* Dark teal/blue-green */
+}
+
+.mhw--details-img {
+    width: 25vw;
+}
+
+.mhw--details-img-container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: #56696b;
+    /* Teal/Blue-green */
+}
+
+.mhw--details-home {
+    background: radial-gradient(circle, #1c1e22, #0f0f13);
+    /* Dark and light shades */
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FF2400;
+}
+
+
+.mhw--detail-container>div>h1 {
+    color: #FF2400;
+    /* Red */
+}
+
+.mhw--detail-container>div>div>h3,
+.mhw--detail-container>div>h2 {
+    color: #1a1c8e;
+}
+
+.mhw--detail-container>div>h3 {
+    color: #FFA500;
+}
+
+.mhw--detail-container>div>p,
+.mhw--detail-container>div>ul,
+.mhw--detail-container>div {
+    color: white;
+}
+
+.mhw--monster-home{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #394240;
+    min-height: 100vh;
+}
+
+.mhw--monster-home>h1{
+    color: #FF2400;
+}
+
+.mhw--monster-btn-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mhw--monster-list{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    background: #56696b;
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mhw--monster-info{
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mhw--monster-info:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.mhw--monster-button{
+    background-color: #56696b;
+}

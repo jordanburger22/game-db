@@ -1,16 +1,21 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 function AgentCard(props) {
-    const { displayName,fullPortrait } = props
+
+    const { displayName, fullPortrait } = props
     console.log(props)
+    const navigate = useNavigate()
+
+    function handleClick(){
+        navigate(`/game/valorant/agents/${displayName}`)
+    }
+
     return (
-        <Link to={`/game/valorant/agents/${displayName}`}>
-            <div>
-                <h1>{displayName}</h1>
-                <img src={fullPortrait} alt="" />
-            </div>
-        </Link>
+        <div onClick={handleClick} className="agent--card-div">
+            <h1>{displayName}</h1>
+            <img className="agent--card-img" src={fullPortrait} alt="" />
+        </div>
     );
 }
 

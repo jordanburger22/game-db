@@ -1,16 +1,23 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function GameCard(props) {
 
     const { name, imgUrl } = props
 
+    const background = {
+        backgroundImage: `url(${imgUrl})`
+    }
+
+    const navigate = useNavigate()
+
+    const handleClick = () => {
+        navigate(`/game/${name.toLowerCase()}`)
+    }
+
     return (
-        <>
-            <Link to={`/game/${name.toLowerCase()}`}>
-                <h1>{name}</h1>
-                <img src={imgUrl} />
-            </Link>
-        </>
+        <div style={background} className="game-card" onClick={handleClick}>
+        </div>
+
     );
 }
 

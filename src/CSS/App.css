@@ -1,0 +1,244 @@
+/* Agent Card */
+
+.agent--card-img {
+  width: 20vw;
+}
+
+.agent--card-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  border-radius: 20px;
+  color: white;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.67);
+}
+
+.agent--card-div:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Agent Card List */
+
+.agent-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: rgb(109, 109, 147);
+  background: -moz-linear-gradient(90deg, rgba(109, 109, 147, 1) 13%, rgba(247, 17, 5, 0.7847514005602241) 45%, rgba(38, 86, 143, 0.6923144257703081) 76%);
+  background: -webkit-linear-gradient(90deg, rgba(109, 109, 147, 1) 13%, rgba(247, 17, 5, 0.7847514005602241) 45%, rgba(38, 86, 143, 0.6923144257703081) 76%);
+  background: linear-gradient(90deg, rgba(109, 109, 147, 1) 13%, rgba(247, 17, 5, 0.7847514005602241) 45%, rgba(38, 86, 143, 0.6923144257703081) 76%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6d6d93", endColorstr="#26568f", GradientType=1);
+}
+
+.agent-card-list-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Agent Details */
+
+.agent--details-container {
+  display: flex;
+  padding: 20px;
+  color: white;
+}
+
+.agent--details-bust {
+  width: 70%;
+}
+
+.agent--details-col1 {
+  width: 70vw;
+}
+
+.agent--details-col2 {
+  width: 30vw;
+}
+
+.agent--details-info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.agent--details-info-child {
+  margin-top: 25px;
+  display: flex;
+}
+
+.agent--details-role {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.agent--details-role-child {
+  display: flex;
+  align-items: center;
+}
+
+.agent--details-role-child>img {
+  margin-right: 20px;
+}
+
+.ability-div {
+  display: flex;
+  padding: 20px;
+}
+
+.ability-div>img {
+  width: 30%;
+  margin-right: 20px;
+  height: 30%;
+}
+
+/* Valorant Home */
+
+.valorant--home-nav {
+  width: 20vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid black 1px;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.valorant--home-nav:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.valorant--home-div {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.valorant--home {
+  padding: 20px;
+  background-image: url('https://dotesports.com/wp-content/uploads/2021/06/05013752/VALORANT_YR1_KeyArt_4k_3_.0-2.jpg?w=1200');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Valorant Weapon List */
+
+.valorant--weapon-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 20px 20px 10px;
+  padding: 15px;
+  border-radius: 15px;
+  /* border: solid black 1px; */
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.valorant--weapon-link:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.valorant--weapon-link>img {
+  max-height: 150px;
+}
+
+.weapon-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: rgb(109, 109, 147);
+  background: -moz-linear-gradient(90deg, rgba(109, 109, 147, 1) 13%, rgba(247, 17, 5, 0.7847514005602241) 45%, rgba(38, 86, 143, 0.6923144257703081) 76%);
+  background: -webkit-linear-gradient(90deg, rgba(109, 109, 147, 1) 13%, rgba(247, 17, 5, 0.7847514005602241) 45%, rgba(38, 86, 143, 0.6923144257703081) 76%);
+  background: linear-gradient(90deg, rgba(109, 109, 147, 1) 13%, rgba(247, 17, 5, 0.7847514005602241) 45%, rgba(38, 86, 143, 0.6923144257703081) 76%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6d6d93", endColorstr="#26568f", GradientType=1);
+  min-height: 100vh;
+}
+
+
+/* Weapon Details */
+
+.weapon--details {
+  background: rgb(109, 109, 147);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.weapon-details-container {
+  background: rgb(109, 109, 147);
+}
+
+.info-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-header>h1 {
+  margin-bottom: 50px;
+  font-size: 5em;
+}
+
+.info-header>img {
+  width: 900px;
+}
+
+
+/*Valorant Weapon Carousel */
+
+.custom-carousel {
+  width: 70%;
+  margin: auto;
+}
+
+.custom-carousel-item {
+  text-align: center;
+}
+
+.custom-carousel-image {
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background: rgb(70,70,70);
+  background: radial-gradient(circle, rgba(70,70,70,1) 0%, rgba(31,3,8,1) 100%);
+  color: white;
+  border-bottom: solid black 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.header--buttons-div {
+  display: flex;
+  align-items: center;
+}
+
